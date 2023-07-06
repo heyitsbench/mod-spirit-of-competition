@@ -1,0 +1,39 @@
+[worldserver]
+
+#
+#    AnnounceEnable
+#        Description: Enable the module announcing its presence.
+#        Default:     true
+#                     false
+
+AnnounceEnable = true
+
+#
+#    CompetitionEnable
+#        Description: Enable the module.
+#        Default:     true
+#                     false
+
+CompetitionEnable = true
+
+#
+#    RewardMethod
+#        Description: Decide the method which loot will be rolled out.
+#        Default:     1   # A certain percentage of the winning team will receive the pet.
+#                     2   # Each individual winning player will have a unique chance to receive the pet.
+
+RewardMethod = 1
+
+#
+#    RewardChance
+#        Description: The chance with which the pet will be rolled to individual players for reward method 2 (in percent).
+#        Default:     1
+
+RewardChance = 1
+
+#
+#    RewardPercent
+#        Description: The percentage of the winning team that will receive the pet for reward method 1.
+#        Default:     10
+
+RewardChance = 10
